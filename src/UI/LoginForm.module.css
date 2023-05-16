@@ -1,0 +1,35 @@
+.LoginForm {
+  color: #4dabf7;
+  margin: 80px auto;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px 2px #ccc;
+  padding: 20px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.formLb {
+  color: #495057;
+  margin-right: 5px;
+}
+.boxIp {
+  margin-bottom: 15px;
+}
+
+.formIp {
+  padding: 5px 0;
+}
+.btnActive {
+  position: relative;
+  bottom: inherit;
+  right: inherit;
+  width: 60%;
+  padding: 6px;
+  margin: 15px 0;
+  border: none;
+  background-color: #4dabf7;
+  color: white;
+}

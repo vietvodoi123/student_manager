@@ -1,0 +1,27 @@
+.nav {
+  padding: 30px 50px 0 50px;
+  color: #868e96;
+  font-size: 20px;
+  border-right: 1px solid #868e96;
+  height: 100%;
+  width: 15%;
+}
+.menuTitle {
+  text-align: start;
+  font-weight: bold;
+  color: #4dabf7;
+}
+.nav ul {
+  list-style: none;
+  margin-left: 5px;
+}
+.nav ul li {
+  text-align: start;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+li:hover {
+  cursor: pointer;
+}

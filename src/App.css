@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+/* //////////// */
+.active {
+  color: #4dabf7;
+  background-color: #d0ebff;
+  font-weight: bold;
+}
+.hide {
+  display: none;
+}
+/* ////////////////////////////// */
+.chucnang {
+  display: flex;
+  justify-content: 1fr 3fr;
+  height: 90vh;
+  gap: 60px;
+}
+
+/* ///////////////////// */
+.user-icon {
+  width: 25px;
+  height: 25px;
+  color: #61dafb;
+}
+.icon-search {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  position: absolute;
+  right: 55px;
+
+  top: 69px;
+}
+.icon-left,
+.icon-right {
+  width: 25px;
+  height: 25px;
+  color: #61dafb;
+}
+.icon-info {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #4dabf7;
+  color: white;
+}
+.icon-info:hover {
+  cursor: pointer;
+  background-color: #61dafb;
+}
+.icon-back {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  color: #ccc;
+}
+.icon-back:hover {
+  color: #4dabf7;
+}
+.icon-pen:hover {
+  cursor: pointer;
+  color: #4dabf7;
+}
+.icon-pen-stu {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #4dabf7;
+  color: white;
+}
+.icon-pen-stu:hover,
+.icon-enter:hover,
+.icon-exit :hover {
+  cursor: pointer;
+  background-color: #61dafb;
+}
+.icon-enter,
+.icon-exit {
+  width: 25px;
+  height: 25px;
+  fill: #4dabf7;
+}
+
+.icon-check {
+  background-color: #4dabf7;
+  margin-right: 20px;
+}
+.icon-info-1,
+.icon-info-2 {
+  width: 20px;
+  height: 20px;
+  fill: #4dabf7;
+}
+.icon-info-1 {
+  margin-right: 10px;
+}
